@@ -32,7 +32,8 @@ const Navigation = () => {
               navigate("/login");
             }}
           >
-            Logout
+            {/* this shows along the navbar */}
+            {document.cookie === "" ? "Login" : "Logout"}
           </li>
         </ul>
       </Toolbar>
