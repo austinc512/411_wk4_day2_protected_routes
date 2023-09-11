@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router";
 import cookie from "cookie";
-import Home from "./components/Home";
+import Home from "./containers/Home"; // imported from containers instead of components. the container is the smart component and <Home /> is the dumb component.
 import About from "./components/About";
 import Car from "./components/Car";
 import Login from "./components/Login";
